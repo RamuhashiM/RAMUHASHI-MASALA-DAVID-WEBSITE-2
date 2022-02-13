@@ -1,0 +1,196 @@
+body{
+    background-color: cyan;
+}
+header .header nav{
+    background-color:#9b59b6;
+    padding-right: 17px;
+}
+header .header a{
+    background-color:orangered;
+    margin-right:10px;
+    
+      }
+
+      header{
+          background-color:#9b59b6;
+      }
+
+
+#masala{
+    width:100%;
+    
+}
+.logo{
+    width:90px;
+}
+
+
+#lufuno{
+    width:100%;
+    background:linear-gradient(135deg,#71b7e6,#9b59b6);
+
+}
+
+
+.container{
+    max-width: 600px;
+   width: 100%;
+   background: #fff;
+   padding: 25px 30px ;
+   border-radius:5px;
+ }
+ .container .title{
+     font-size:25px;
+     font-weight:500;
+     position: relative;
+ }
+ .container .title::before{
+     content:'';
+     position: absolute;
+     height:3px;
+     width: 30px;
+     background:linear-gradient(135deg,#71b7e6,#9b59b6);
+     left:0;
+     bottom: 0;
+ }
+  .container form .user-details{
+     
+     flex-wrap: wrap;
+     justify-content:space-between;
+     margin: 20px 0 12px 0;
+     
+     
+  }
+ form .user-details .input-box{
+    
+    margin-bottom:15px ;
+     width: calc(100% / 2 - 20px);
+ }
+ .user-details .input-box  .details{
+     display: block;
+     font-weight: 500;
+     margin-bottom:5px;
+ }
+ .user-details .input-box input{
+     height:45px;
+     width: 100%;
+     outline: none;
+     border-radius: 5px;
+     border:1px solid #ccc;
+     padding: left 15px;
+     font-size:16px;
+     border-bottom-width: 2px;
+     transition:all 0.3s ease;
+  }
+  .user-details .input-box  input:focus,
+  .user-details .input-box input:valid{
+      border-color: #9b59b6;
+
+  }
+  form .gender-details .gender-title{
+      font-size:20px;
+      font-weight:500;
+
+  }
+  form .gender-details .category{
+      width:80%;
+      display:flex;
+      justify-content: space-between;
+      margin:14px 0;
+  }
+  .gender-details .category label{
+      display:flex;
+      align-items: center;
+
+  }
+  .gender-details .category .dot{
+      height:18px;
+      width:18px;
+      background:#d9d9d9;
+      border-radius:50%;
+      margin-bottom: 10px;
+      border:5px solid transparent;
+
+  }
+  #dot-1:checked~ .category label .one,
+    #dot-2:checked~ .category label .two,
+        #dot-3:checked~ .category label .three {
+      border-color:#d9d9d9 ;
+      background:#9b59b6;
+  }
+  form input[type="radio"]{
+      display:none;
+  }
+
+  form .button{
+      height:45px;
+      margin:45px;
+  }
+  form .button input{
+      height:100%;
+      width:100%;
+      outline:none;
+      color: #fff;
+      background:linear-gradient(135deg,#71b7e6,#9b59b6);
+      border:none;
+      font-size:18px;
+      font-weight:500;
+      letter-spacing: 1px;
+      border-radius: 5px;;
+}
+form .button input:hover{
+    background:linear-gradient(-135deg,#71b7e6,#9b59b6);
+}
+form{
+    width:100%;
+    color:orange;
+}
+.masa{
+    width:40%;
+
+}
+.footertext{
+    text-align: center;
+    color:white;
+    
+}
+footer{
+    background-color:black;
+    
+}
+
+ #end{
+     width:100%;
+ }
+ 
+ footer .size a{
+     color:orange;
+font-size: 30px;
+  width: 45px;
+  height: 45px;
+  line-height: 39px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #05ff05;
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4);
+  margin: 10px;
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+ }
+ footer .size a:hover{
+    opacity: 0.9;
+    box-shadow: 0px 1px 3px 2px rgba(255, 255, 255, 0.9);
+  }
+ 
+  footer #done{
+      font-size:15px;
+      color:orange;
+      padding:10px;
+  }
+
+
+ .midrand h1{
+    color:orangered;
+}
+
+

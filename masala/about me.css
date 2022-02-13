@@ -1,0 +1,85 @@
+body{
+    background-color: cyan;
+}
+ header .header nav {
+    background-color: #9b59b6;
+    padding-right: 17px;
+}
+    header .header a{
+    background-color:orangered;
+    margin-right:10px;
+    
+      }
+.title{
+    background-color:purple;
+}
+#masala{
+    width:100%;
+    
+    
+}
+.logo{
+    width:90px;
+}
+
+header {
+    background-color:#9b59b6;
+}
+
+
+
+#lufuno{
+    width:100%;
+
+}
+.footertext{
+    text-align: center;
+    color:white;
+    
+}
+footer{
+    background-color:black;
+    
+}
+
+ #end{
+     width:100%;
+ }
+ 
+ footer .size a{
+     color:orange;
+font-size: 30px;
+  width: 45px;
+  height: 45px;
+  line-height: 39px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #05ff05;
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4);
+  margin: 10px;
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+ }
+ footer .size a:hover{
+    opacity: 0.9;
+    box-shadow: 0px 1px 3px 2px rgba(255, 255, 255, 0.9);
+  }
+ 
+  footer #done{
+      font-size:15px;
+      color:orange;
+      padding:10px;
+  }
+
+ .masalaa{
+    background:url(../ASSEST/vhutshilo.jpg);
+    width: 100%;
+    
+}
+.image{
+    width: 50%;
+}
+p{
+    color:orangered;
+    font-size:medium;
+}
